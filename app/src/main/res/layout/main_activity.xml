@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/bgimage_"
+    android:backgroundTintMode="screen"
+    android:padding="20dp"
+
+    >
+    <TextView
+
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="This is a text"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/mont_bold"/>
+
+    <Button
+        android:background="@drawable/roundstyle"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Change font size"
+        android:fontFamily="@font/mont_bold"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+
+        />
+    <Button
+        android:background="@drawable/roundstyle"
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:fontFamily="@font/mont_bold"
+        android:text="Change color"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        />
+
+
+</LinearLayout>
